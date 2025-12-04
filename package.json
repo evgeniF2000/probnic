@@ -1,25 +1,23 @@
 {
-  "name": "code",
+  "name": "lab9-11",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "dependencies": {
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  },
   "devDependencies": {
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
     "style-loader": "^4.0.0",
-    "svg-inline-loader": "^0.8.2",
-    "webpack": "^5.103.0",
-    "webpack-cli": "^6.0.1"
-  },
-  "dependencies": {
-    "development": "^0.0.6"
+    "svg-inline-loader": "^0.8.2"
   }
 }
